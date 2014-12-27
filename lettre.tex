@@ -1,0 +1,26 @@
+\documentclass[10pt]{lettre}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % ou latin1 selon votre OS
+\usepackage{lmodern} % pour avoir un rendu d'impression correct
+\usepackage{eurosym} % symbole Euro
+ 
+\begin{document}
+\begin{letter}{A lâattention de} % Destinataire
+
+\name{PrÃ©nom \textsc{Nom}}
+\signature{PrÃ©nom \textsc{Nom}}
+\address{PrÃ©nom \textsc{Nom}\\Adresse}
+\lieu{Ville}
+\telephone{06 00 00 00 00}
+\email{email@fai.fr}
+\nofax % C'est \fax{} pour indiquer un numÃ©ro de fax
+
+\conc{Objet} % Objet de la lettre
+
+\opening{Madame, Monsieur} % Ouverture
+
+ Corps de la lettre
+  
+\end{letter}
+\end{document}
